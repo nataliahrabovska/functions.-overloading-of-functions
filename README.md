@@ -1,1 +1,2 @@
-# functions.-overloading-of-functions
+# functions.-overloading-of-functions 
+Створила клас книжок і реалізувала методи по додаванню книжок і їх видаленню , сортування за рейтингом. 
