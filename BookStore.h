@@ -8,38 +8,6 @@
 #include "algorithm"
 #include "iostream"
 
-class Book {
-public:
-    Book(std::string name,
-         int price_,
-         int numberOfPages_,
-         std::string author_,
-         int quantity_,
-         int numberOfSales_);
-    ~Book();
-
-    std::string getName(){
-        return name;
-    }
-    int getPrice(){
-        return price;
-    }
-    int getNumberOfSales(){
-        return numberOfSales;
-    }
-    std::string getAuthor(){
-        return author;
-    }
-
-private:
-    std::string name;
-    int price;
-    int numberOfPages;
-    std::string author;
-    int quantity;
-    int numberOfSales;
-};
-
 class BookStore {
 public:
     BookStore(std::vector<Book> books);
